@@ -48,7 +48,7 @@ func MakeVirtualServiceLabels(spec v1alpha1.RouteSpecFields) map[string]string {
 }
 
 // MakeVirtualService creates a VirtualService from a Route object.
-func MakeVirtualService(routes []*v1alpha1.Route) (*networking.VirtualService, error) {
+func MakeVirtualService(routes []*v1alpha1.Route, claims []*v1alpha1.RouteClaim) (*networking.VirtualService, error) {
 	if len(routes) == 0 {
 		return nil, errors.New("routes must not be empty")
 	}
@@ -68,13 +68,17 @@ func MakeVirtualService(routes []*v1alpha1.Route) (*networking.VirtualService, e
 		appNames   []string
 		httpRoutes []networking.HTTPRoute
 	)
-	for _, route := range routes {
-		// Each route will own the VirtualService. Therefore none of them can
+
+	for _, claim := range claims {
+		// Each claim will own the VirtualService. Therefore none of them can
 		// be a controller.
-		ownerRef := *kmeta.NewControllerRef(route)
+		ownerRef := *kmeta.NewControllerRef(claim)
 		ownerRef.Controller = nil
 		ownerRef.BlockOwnerDeletion = nil
 		ownerRefs = append(ownerRefs, ownerRef)
+	}
+
+	for _, route := range routes {
 		urlPath := route.Spec.RouteSpecFields.Path
 
 		// AppNames

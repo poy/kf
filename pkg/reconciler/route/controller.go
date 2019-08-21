@@ -19,6 +19,7 @@ import (
 
 	v1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
 	routeinformer "github.com/google/kf/pkg/client/injection/informers/kf/v1alpha1/route"
+	routeclaiminformer "github.com/google/kf/pkg/client/injection/informers/kf/v1alpha1/routeclaim"
 	"github.com/google/kf/pkg/reconciler"
 	appresources "github.com/google/kf/pkg/reconciler/app/resources"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -37,11 +38,13 @@ func NewController(ctx context.Context, cmw configmap.Watcher) *controller.Impl 
 	// Get informers off context
 	vsInformer := virtualserviceinformer.Get(ctx)
 	routeInformer := routeinformer.Get(ctx)
+	routeClaimInformer := routeclaiminformer.Get(ctx)
 
 	// Create reconciler
 	c := &Reconciler{
 		Base:                 reconciler.NewBase(ctx, "route-controller", cmw),
 		routeLister:          routeInformer.Lister(),
+		routeClaimLister:     routeClaimInformer.Lister(),
 		virtualServiceLister: vsInformer.Lister(),
 	}
 

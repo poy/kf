@@ -43,6 +43,7 @@ type Reconciler struct {
 
 	// listers index properties about resources
 	routeLister          kflisters.RouteLister
+	routeClaimLister     kflisters.RouteClaimLister
 	virtualServiceLister istiolisters.VirtualServiceLister
 }
 
@@ -114,7 +115,15 @@ func (r *Reconciler) ApplyChanges(
 			return err
 		}
 
-		desired, err := resources.MakeVirtualService(routes)
+		// Fetch claims with the same Hostname+Domain+Path.
+		claims, err := r.routeClaimLister.
+			RouteClaims(origRoute.GetNamespace()).
+			List(appresources.MakeRouteSelector(origRoute.Spec.RouteSpecFields))
+		if err != nil {
+			return err
+		}
+
+		desired, err := resources.MakeVirtualService(routes, claims)
 		if err != nil {
 			return err
 		}

@@ -22,3 +22,8 @@ import (
 func (r *Route) GetGroupVersionKind() schema.GroupVersionKind {
 	return SchemeGroupVersion.WithKind("Route")
 }
+
+// GetGroupVersionKind returns the GroupVersionKind.
+func (r *RouteClaim) GetGroupVersionKind() schema.GroupVersionKind {
+	return SchemeGroupVersion.WithKind("RouteClaim")
+}
