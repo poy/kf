@@ -69,6 +69,26 @@ func (c *Client) CreateService(instanceName, serviceName, planName string, opts 
 
 	svcat := c.createSvcatClient(cfg.Namespace)
 
+	// Because provision needs to know if the plan is a cluster plan or a
+	// namespaced one, we first need to examine the installed plans to get
+	// the answer.
+	market, err := c.Marketplace(WithMarketplaceNamespace(cfg.Namespace))
+	if err != nil {
+		return nil, err
+	}
+
+	var plans []servicecatalog.Plan
+
+	for _, plan := range market.Plans {
+		if plan.Name == planName {
+			plans = append(plans, plan)
+		}
+	}
+
+	if len(plans) > 1 {
+
+	}
+
 	// Provision(instanceName, className, planName string, opts *ProvisionOptions) (*v1beta1.ServiceInstance, error)
 	return svcat.Provision(instanceName, serviceName, planName, &servicecatalog.ProvisionOptions{
 		Namespace: cfg.Namespace,

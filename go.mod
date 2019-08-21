@@ -2,6 +2,7 @@ module github.com/google/kf
 
 require (
 	contrib.go.opencensus.io/exporter/stackdriver v0.12.1 // indirect
+	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
 	github.com/MakeNowJust/heredoc v0.0.0-20171113091838-e9091a26100e // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/docker/spdystream v0.0.0-20181023171402-6480d4af844c // indirect
@@ -13,7 +14,7 @@ require (
 	github.com/google/kf/pkg/kf/commands/install v0.0.0
 	github.com/google/uuid v1.1.1 // indirect
 	github.com/google/wire v0.2.2
-	github.com/gorilla/mux v1.7.0
+	github.com/gorilla/mux v1.7.1
 	github.com/imdario/mergo v0.3.7
 	github.com/knative/build v0.7.0
 	github.com/knative/pkg v0.0.0-20190621200921-9c5d970cbc9e
@@ -21,10 +22,12 @@ require (
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/markbates/inflect v1.0.4 // indirect
 	github.com/mattbaird/jsonpatch v0.0.0-20171005235357-81af80346b1a // indirect
-	github.com/mattn/go-runewidth v0.0.4 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.0 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
+	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/poy/kontext v0.0.0-20190801225340-1f98414f4e12
-	github.com/poy/service-catalog v0.0.0-20190305064623-db385b1d332c
+	github.com/poy/service-catalog v0.0.0-20190305064623-989aa0622e6208f37ab1352a94fc45ec8001b8a9
 	github.com/rogpeppe/go-internal v1.3.0 // indirect
 	github.com/segmentio/textio v1.2.0
 	github.com/sirupsen/logrus v1.3.0 // indirect
@@ -32,7 +35,6 @@ require (
 	github.com/spf13/pflag v1.0.3
 	go.opencensus.io v0.22.0 // indirect
 	go.uber.org/zap v1.9.1
-	google.golang.org/appengine v1.5.0 // indirect
 	gopkg.in/alecthomas/kingpin.v3-unstable v3.0.0-20180810215634-df19058c872c // indirect
 	gopkg.in/yaml.v2 v2.2.2
 	gotest.tools v2.2.0+incompatible // indirect
