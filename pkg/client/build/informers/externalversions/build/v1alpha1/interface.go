@@ -17,7 +17,7 @@
 package v1alpha1
 
 import (
-	internalinterfaces "github.com/google/kf/pkg/client/build/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/poy/kf/pkg/client/build/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

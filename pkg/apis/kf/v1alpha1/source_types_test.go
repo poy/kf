@@ -17,7 +17,7 @@ package v1alpha1
 import (
 	"testing"
 
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/testutil"
 )
 
 func TestSourceSpec_NeedsUpdateRequestsIncrement(t *testing.T) {

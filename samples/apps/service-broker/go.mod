@@ -1,4 +1,4 @@
-module github.com/google/kf/samples/apps/service-broker
+module github.com/poy/kf/samples/apps/service-broker
 
 go 1.12
 

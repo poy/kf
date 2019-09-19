@@ -47,8 +47,8 @@ export CGO_ENABLED=0
 # resolved.
 go mod vendor
 mkdir -p $GOPATH/src/github.com/google/
-ln -s $PWD $GOPATH/src/github.com/google/kf
-cd $GOPATH/src/github.com/google/kf
+ln -s $PWD $GOPATH/src/github.com/poy/kf
+cd $GOPATH/src/github.com/poy/kf
 
 # Build artifacts
 tmp_dir=$(mktemp -d)

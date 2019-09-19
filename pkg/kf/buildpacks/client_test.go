@@ -24,8 +24,8 @@ import (
 	"github.com/google/go-containerregistry/pkg/name"
 	gcrv1 "github.com/google/go-containerregistry/pkg/v1"
 	"github.com/google/go-containerregistry/pkg/v1/remote"
-	"github.com/google/kf/pkg/kf/buildpacks"
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/buildpacks"
+	"github.com/poy/kf/pkg/kf/testutil"
 	ktesting "k8s.io/client-go/testing"
 )
 

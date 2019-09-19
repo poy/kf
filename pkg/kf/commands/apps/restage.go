@@ -17,10 +17,10 @@ package apps
 import (
 	"fmt"
 
-	"github.com/google/kf/pkg/kf/apps"
-	"github.com/google/kf/pkg/kf/commands/completion"
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/commands/utils"
+	"github.com/poy/kf/pkg/kf/apps"
+	"github.com/poy/kf/pkg/kf/commands/completion"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/utils"
 	"github.com/spf13/cobra"
 )
 

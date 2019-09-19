@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/google/kf/pkg/kf/commands"
+	"github.com/poy/kf/pkg/kf/commands"
 	"github.com/spf13/cobra/doc"
 )
 

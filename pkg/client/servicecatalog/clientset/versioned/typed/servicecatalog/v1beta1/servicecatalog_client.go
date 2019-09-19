@@ -17,7 +17,7 @@
 package v1beta1
 
 import (
-	"github.com/google/kf/pkg/client/servicecatalog/clientset/versioned/scheme"
+	"github.com/poy/kf/pkg/client/servicecatalog/clientset/versioned/scheme"
 	v1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"

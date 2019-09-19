@@ -30,7 +30,7 @@ while getopts "v" opt; do
 done
 
 HACK_DIR="${0%/*}"
-KF_PACKAGE="github.com/google/kf"
+KF_PACKAGE="github.com/poy/kf"
 KF_PACKAGE_LOCATION="./"
 KF_RESOURCE="kf:v1alpha1"
 BUILD_RESOURCE="build:v1alpha1"
@@ -111,8 +111,8 @@ kf-code-gen() {
 kf-knative-gen() {
   knative-injection-gen \
     "injection" \
-    "github.com/google/kf/pkg/client" \
-    "github.com/google/kf/pkg/apis" \
+    "github.com/poy/kf/pkg/client" \
+    "github.com/poy/kf/pkg/apis" \
     "kf:v1alpha1"
 }
 
@@ -127,7 +127,7 @@ kbuild-code-gen() {
 kbuild-knative-gen() {
   knative-injection-gen \
     "injection" \
-    "github.com/google/kf/pkg/client/build" \
+    "github.com/poy/kf/pkg/client/build" \
     "github.com/knative/build/pkg/apis" \
     "build:v1alpha1"
 }
@@ -143,7 +143,7 @@ svccat-codegen() {
 svccat-knative-gen() {
   knative-injection-gen \
     "injection" \
-    "github.com/google/kf/pkg/client/servicecatalog" \
+    "github.com/poy/kf/pkg/client/servicecatalog" \
     "github.com/poy/service-catalog/pkg/apis" \
     "servicecatalog:v1beta1"
 }

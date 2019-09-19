@@ -20,7 +20,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/testutil"
 )
 
 // Assert Diagnostic can be used with our internal testing framework.

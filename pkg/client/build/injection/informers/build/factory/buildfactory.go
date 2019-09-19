@@ -19,8 +19,8 @@ package buildfactory
 import (
 	"context"
 
-	externalversions "github.com/google/kf/pkg/client/build/informers/externalversions"
-	client "github.com/google/kf/pkg/client/build/injection/client"
+	externalversions "github.com/poy/kf/pkg/client/build/informers/externalversions"
+	client "github.com/poy/kf/pkg/client/build/injection/client"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 	logging "knative.dev/pkg/logging"

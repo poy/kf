@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/google/kf/pkg/kf/commands/install/kf"
-	. "github.com/google/kf/pkg/kf/commands/install/util"
+	"github.com/poy/kf/pkg/kf/commands/install/kf"
+	. "github.com/poy/kf/pkg/kf/commands/install/util"
 	"github.com/spf13/cobra"
 )
 

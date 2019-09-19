@@ -17,7 +17,7 @@ package quotas
 import (
 	"fmt"
 
-	"github.com/google/kf/pkg/kf/spaces"
+	"github.com/poy/kf/pkg/kf/spaces"
 	"k8s.io/apimachinery/pkg/api/resource"
 )
 

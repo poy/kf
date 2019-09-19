@@ -17,7 +17,7 @@
 package v1beta1
 
 import (
-	scheme "github.com/google/kf/pkg/client/servicecatalog/clientset/versioned/scheme"
+	scheme "github.com/poy/kf/pkg/client/servicecatalog/clientset/versioned/scheme"
 	v1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"

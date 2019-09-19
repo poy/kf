@@ -19,8 +19,8 @@ package clusterserviceplan
 import (
 	"context"
 
-	v1beta1 "github.com/google/kf/pkg/client/servicecatalog/informers/externalversions/servicecatalog/v1beta1"
-	factory "github.com/google/kf/pkg/client/servicecatalog/injection/informers/servicecatalog/factory"
+	v1beta1 "github.com/poy/kf/pkg/client/servicecatalog/informers/externalversions/servicecatalog/v1beta1"
+	factory "github.com/poy/kf/pkg/client/servicecatalog/injection/informers/servicecatalog/factory"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 	logging "knative.dev/pkg/logging"

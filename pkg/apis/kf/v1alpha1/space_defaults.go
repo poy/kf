@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/google/kf/pkg/kf/algorithms"
+	"github.com/poy/kf/pkg/kf/algorithms"
 	routecfg "knative.dev/serving/pkg/reconciler/route/config"
 )
 

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/google/kf/pkg/kf/doctor"
+	"github.com/poy/kf/pkg/kf/doctor"
 	build "github.com/knative/build/pkg/apis/build/v1alpha1"
 	cbuild "github.com/knative/build/pkg/client/clientset/versioned/typed/build/v1alpha1"
 

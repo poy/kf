@@ -40,5 +40,5 @@ that supports building Go, Node, and Java apps.
 
 ## Known limitations
 
- * Kf doesn't currently support running buildpacks by URI [#619](https://github.com/google/kf/issues/619).
- * Kf does not inject the `VCAP_SERVICES` environment variable into builds [660](https://github.com/google/kf/issues/660).
+ * Kf doesn't currently support running buildpacks by URI [#619](https://github.com/poy/kf/issues/619).
+ * Kf does not inject the `VCAP_SERVICES` environment variable into builds [660](https://github.com/poy/kf/issues/660).

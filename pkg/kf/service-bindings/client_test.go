@@ -20,12 +20,12 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	kfv1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
-	testclient "github.com/google/kf/pkg/client/servicecatalog/clientset/versioned/fake"
-	"github.com/google/kf/pkg/kf/apps"
-	appsfake "github.com/google/kf/pkg/kf/apps/fake"
-	servicebindings "github.com/google/kf/pkg/kf/service-bindings"
-	"github.com/google/kf/pkg/kf/testutil"
+	kfv1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	testclient "github.com/poy/kf/pkg/client/servicecatalog/clientset/versioned/fake"
+	"github.com/poy/kf/pkg/kf/apps"
+	appsfake "github.com/poy/kf/pkg/kf/apps/fake"
+	servicebindings "github.com/poy/kf/pkg/kf/service-bindings"
+	"github.com/poy/kf/pkg/kf/testutil"
 	servicecatalogv1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 )
 

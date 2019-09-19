@@ -19,8 +19,8 @@ package fake
 import (
 	"context"
 
-	fake "github.com/google/kf/pkg/client/servicecatalog/injection/informers/servicecatalog/factory/fake"
-	clusterservicebroker "github.com/google/kf/pkg/client/servicecatalog/injection/informers/servicecatalog/v1beta1/clusterservicebroker"
+	fake "github.com/poy/kf/pkg/client/servicecatalog/injection/informers/servicecatalog/factory/fake"
+	clusterservicebroker "github.com/poy/kf/pkg/client/servicecatalog/injection/informers/servicecatalog/v1beta1/clusterservicebroker"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 )

@@ -22,7 +22,7 @@ import (
 	"github.com/google/go-containerregistry/pkg/name"
 	gcrv1 "github.com/google/go-containerregistry/pkg/v1"
 	"github.com/google/go-containerregistry/pkg/v1/remote"
-	"github.com/google/kf/pkg/kf/doctor"
+	"github.com/poy/kf/pkg/kf/doctor"
 )
 
 // Client is the main interface for interacting with Buildpacks.

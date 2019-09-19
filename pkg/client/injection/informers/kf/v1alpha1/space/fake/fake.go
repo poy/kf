@@ -19,8 +19,8 @@ package fake
 import (
 	"context"
 
-	fake "github.com/google/kf/pkg/client/injection/informers/kf/factory/fake"
-	space "github.com/google/kf/pkg/client/injection/informers/kf/v1alpha1/space"
+	fake "github.com/poy/kf/pkg/client/injection/informers/kf/factory/fake"
+	space "github.com/poy/kf/pkg/client/injection/informers/kf/v1alpha1/space"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 )

@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/google/kf/pkg/internal/envutil"
+	"github.com/poy/kf/pkg/internal/envutil"
 	"github.com/imdario/mergo"
 	"gopkg.in/yaml.v2"
 )
@@ -164,7 +164,7 @@ func (app *Application) Override(overrides *Application) error {
 		fmt.Fprintf(os.Stderr, `
 WARNING! min-scale and max-scale are not normal CF fields in a manifest.
 Therefore they are subject to change.
-Please follow the thread in https://github.com/google/kf/issues/95
+Please follow the thread in https://github.com/poy/kf/issues/95
 for more info.
 `)
 	}

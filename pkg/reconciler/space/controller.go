@@ -17,15 +17,15 @@ package space
 import (
 	"context"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	spaceinformer "github.com/google/kf/pkg/client/injection/informers/kf/v1alpha1/space"
-	"github.com/google/kf/pkg/reconciler"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	spaceinformer "github.com/poy/kf/pkg/client/injection/informers/kf/v1alpha1/space"
+	"github.com/poy/kf/pkg/reconciler"
 	namespaceinformer "knative.dev/pkg/injection/informers/kubeinformers/corev1/namespace"
 	roleinformer "knative.dev/pkg/injection/informers/kubeinformers/rbacv1/role"
 
 	// TODO (juliaguo): replace with knative informer pkgs once they are merged in
-	limitrangeinformer "github.com/google/kf/pkg/client/injection/informers/kubernetes/limitrange"
-	quotainformer "github.com/google/kf/pkg/client/injection/informers/kubernetes/resourcequota"
+	limitrangeinformer "github.com/poy/kf/pkg/client/injection/informers/kubernetes/limitrange"
+	quotainformer "github.com/poy/kf/pkg/client/injection/informers/kubernetes/resourcequota"
 
 	"k8s.io/client-go/tools/cache"
 

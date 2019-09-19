@@ -21,9 +21,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/google/kf/pkg/client/servicecatalog/clientset/versioned"
-	internalinterfaces "github.com/google/kf/pkg/client/servicecatalog/informers/externalversions/internalinterfaces"
-	servicecatalog "github.com/google/kf/pkg/client/servicecatalog/informers/externalversions/servicecatalog"
+	versioned "github.com/poy/kf/pkg/client/servicecatalog/clientset/versioned"
+	internalinterfaces "github.com/poy/kf/pkg/client/servicecatalog/informers/externalversions/internalinterfaces"
+	servicecatalog "github.com/poy/kf/pkg/client/servicecatalog/informers/externalversions/servicecatalog"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

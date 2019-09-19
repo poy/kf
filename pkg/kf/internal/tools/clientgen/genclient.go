@@ -22,7 +22,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/google/kf/pkg/kf/internal/tools/clientgen"
+	"github.com/poy/kf/pkg/kf/internal/tools/clientgen"
 	"gopkg.in/yaml.v2"
 )
 

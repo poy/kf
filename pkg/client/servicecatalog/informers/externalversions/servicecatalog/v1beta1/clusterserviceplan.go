@@ -19,9 +19,9 @@ package v1beta1
 import (
 	time "time"
 
-	versioned "github.com/google/kf/pkg/client/servicecatalog/clientset/versioned"
-	internalinterfaces "github.com/google/kf/pkg/client/servicecatalog/informers/externalversions/internalinterfaces"
-	v1beta1 "github.com/google/kf/pkg/client/servicecatalog/listers/servicecatalog/v1beta1"
+	versioned "github.com/poy/kf/pkg/client/servicecatalog/clientset/versioned"
+	internalinterfaces "github.com/poy/kf/pkg/client/servicecatalog/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/poy/kf/pkg/client/servicecatalog/listers/servicecatalog/v1beta1"
 	servicecatalogv1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"

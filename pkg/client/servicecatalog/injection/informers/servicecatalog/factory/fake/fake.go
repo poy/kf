@@ -19,9 +19,9 @@ package fake
 import (
 	"context"
 
-	externalversions "github.com/google/kf/pkg/client/servicecatalog/informers/externalversions"
-	fake "github.com/google/kf/pkg/client/servicecatalog/injection/client/fake"
-	factory "github.com/google/kf/pkg/client/servicecatalog/injection/informers/servicecatalog/factory"
+	externalversions "github.com/poy/kf/pkg/client/servicecatalog/informers/externalversions"
+	fake "github.com/poy/kf/pkg/client/servicecatalog/injection/client/fake"
+	factory "github.com/poy/kf/pkg/client/servicecatalog/injection/informers/servicecatalog/factory"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 )

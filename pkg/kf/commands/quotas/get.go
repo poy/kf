@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/google/kf/pkg/kf/commands/completion"
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/describe"
-	"github.com/google/kf/pkg/kf/spaces"
+	"github.com/poy/kf/pkg/kf/commands/completion"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/describe"
+	"github.com/poy/kf/pkg/kf/spaces"
 	"github.com/spf13/cobra"
 )
 

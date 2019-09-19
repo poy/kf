@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
 	"github.com/knative/serving/pkg/resources"
 	servicecatalogv1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	servicecatalog "github.com/poy/service-catalog/pkg/svcat/service-catalog"

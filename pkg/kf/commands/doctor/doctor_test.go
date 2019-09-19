@@ -19,9 +19,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/doctor"
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/doctor"
+	"github.com/poy/kf/pkg/kf/testutil"
 )
 
 type failDiagnostic struct{}

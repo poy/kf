@@ -15,7 +15,7 @@
 package v1alpha1
 
 import (
-	"github.com/google/kf/pkg/apis/kf"
+	"github.com/poy/kf/pkg/apis/kf"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"

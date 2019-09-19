@@ -137,15 +137,15 @@ The following are known differences between `kf` manifests and `cf` manifests:
 
 * Kf does not support deprecated cf manifest fields. This includes all fields at the root-level of the manifest (other than applications) and routing fields.
 * Kf is missing support for the following v2 manifest fields:
-  * stack [656](https://github.com/google/kf/issues/656)
-  * command [656](https://github.com/google/kf/issues/656)
-  * buildpack [656](https://github.com/google/kf/issues/656)
+  * stack [656](https://github.com/poy/kf/issues/656)
+  * command [656](https://github.com/poy/kf/issues/656)
+  * buildpack [656](https://github.com/poy/kf/issues/656)
   * docker.username (no support planned)
 * Kf is missing support for the following v2 manifest features:
-  * Buildpacks from URL [619](https://github.com/google/kf/issues/619)
+  * Buildpacks from URL [619](https://github.com/poy/kf/issues/619)
   * YAML Anchors (no support planned)
   * Manifest variables (no support planned)
 * Kf does not yet support v3 manifests. We have planned support for:
-  * Metadata [656](https://github.com/google/kf/issues/656)
-  * Service parameters [656](https://github.com/google/kf/issues/656)
+  * Metadata [656](https://github.com/poy/kf/issues/656)
+  * Service parameters [656](https://github.com/poy/kf/issues/656)
 * Kf does not support auto-detecting ports for Docker containers. (no support planned)

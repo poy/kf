@@ -17,7 +17,7 @@
 package fake
 
 import (
-	v1beta1 "github.com/google/kf/pkg/client/servicecatalog/clientset/versioned/typed/servicecatalog/v1beta1"
+	v1beta1 "github.com/poy/kf/pkg/client/servicecatalog/clientset/versioned/typed/servicecatalog/v1beta1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

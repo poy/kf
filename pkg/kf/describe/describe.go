@@ -20,8 +20,8 @@ import (
 	"io"
 	"sort"
 
-	kfv1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/kf/services"
+	kfv1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/kf/services"
 	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	"gopkg.in/yaml.v2"
 	corev1 "k8s.io/api/core/v1"

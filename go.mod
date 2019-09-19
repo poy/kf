@@ -1,4 +1,4 @@
-module github.com/google/kf
+module github.com/poy/kf
 
 require (
 	contrib.go.opencensus.io/exporter/stackdriver v0.12.1 // indirect
@@ -50,7 +50,7 @@ require (
 // knative/pkg; update once https://github.com/knative/pkg/pull/475 goes through
 replace go.opencensus.io => go.opencensus.io v0.20.2
 
-// Remove once https://github.com/google/kf/issues/238 is resolved
+// Remove once https://github.com/poy/kf/issues/238 is resolved
 replace github.com/knative/pkg => github.com/poy/knative-pkg v99.0.0+incompatible
 
 replace (

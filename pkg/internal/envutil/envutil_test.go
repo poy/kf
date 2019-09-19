@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"testing"
 
-	v1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/internal/envutil"
-	"github.com/google/kf/pkg/kf/testutil"
+	v1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/internal/envutil"
+	"github.com/poy/kf/pkg/kf/testutil"
 	corev1 "k8s.io/api/core/v1"
 )
 

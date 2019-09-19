@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/google/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/config"
 	"github.com/spf13/cobra"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

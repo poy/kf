@@ -74,7 +74,7 @@ privacy_policy = "https://policies.google.com/privacy"
 version_menu = "Releases"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/google/kf"
+github_repo = "https://github.com/poy/kf"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -115,7 +115,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/google/kf"
+	url = "https://github.com/poy/kf"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 

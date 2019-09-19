@@ -38,7 +38,7 @@ spec:
       - name: webhook
         # This is the Go import path for the binary that is containerized
         # and substituted here.
-        image: github.com/google/kf/cmd/webhook
+        image: github.com/poy/kf/cmd/webhook
         resources:
           # Request 2x what we saw running e2e
           requests:

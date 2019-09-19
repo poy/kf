@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
 	corev1 "k8s.io/api/core/v1"
 )
 

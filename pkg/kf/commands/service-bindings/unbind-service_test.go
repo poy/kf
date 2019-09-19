@@ -16,14 +16,14 @@ package servicebindings_test
 
 import (
 	"errors"
-	"github.com/google/kf/pkg/kf/commands/utils"
+	"github.com/poy/kf/pkg/kf/commands/utils"
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	servicebindingscmd "github.com/google/kf/pkg/kf/commands/service-bindings"
-	servicebindings "github.com/google/kf/pkg/kf/service-bindings"
-	"github.com/google/kf/pkg/kf/service-bindings/fake"
-	"github.com/google/kf/pkg/kf/testutil"
+	servicebindingscmd "github.com/poy/kf/pkg/kf/commands/service-bindings"
+	servicebindings "github.com/poy/kf/pkg/kf/service-bindings"
+	"github.com/poy/kf/pkg/kf/service-bindings/fake"
+	"github.com/poy/kf/pkg/kf/testutil"
 )
 
 func TestNewUnbindServiceCommand(t *testing.T) {

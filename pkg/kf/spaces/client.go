@@ -15,8 +15,8 @@
 package spaces
 
 import (
-	v1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
-	cv1alpha1 "github.com/google/kf/pkg/client/clientset/versioned/typed/kf/v1alpha1"
+	v1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	cv1alpha1 "github.com/poy/kf/pkg/client/clientset/versioned/typed/kf/v1alpha1"
 )
 
 // ClientExtension holds additional functions that should be exposed by client.

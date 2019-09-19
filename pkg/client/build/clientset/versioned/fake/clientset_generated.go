@@ -17,9 +17,9 @@
 package fake
 
 import (
-	clientset "github.com/google/kf/pkg/client/build/clientset/versioned"
-	buildv1alpha1 "github.com/google/kf/pkg/client/build/clientset/versioned/typed/build/v1alpha1"
-	fakebuildv1alpha1 "github.com/google/kf/pkg/client/build/clientset/versioned/typed/build/v1alpha1/fake"
+	clientset "github.com/poy/kf/pkg/client/build/clientset/versioned"
+	buildv1alpha1 "github.com/poy/kf/pkg/client/build/clientset/versioned/typed/build/v1alpha1"
+	fakebuildv1alpha1 "github.com/poy/kf/pkg/client/build/clientset/versioned/typed/build/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

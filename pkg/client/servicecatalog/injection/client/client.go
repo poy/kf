@@ -19,7 +19,7 @@ package client
 import (
 	"context"
 
-	versioned "github.com/google/kf/pkg/client/servicecatalog/clientset/versioned"
+	versioned "github.com/poy/kf/pkg/client/servicecatalog/clientset/versioned"
 	rest "k8s.io/client-go/rest"
 	injection "knative.dev/pkg/injection"
 	logging "knative.dev/pkg/logging"

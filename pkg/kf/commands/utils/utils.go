@@ -22,7 +22,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/google/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/config"
 	build "github.com/knative/build/pkg/client/clientset/versioned/typed/build/v1alpha1"
 	cserving "github.com/knative/serving/pkg/client/clientset/versioned/typed/serving/v1alpha1"
 	serving "github.com/knative/serving/pkg/client/clientset/versioned/typed/serving/v1alpha1"
@@ -35,7 +35,7 @@ const (
 )
 
 const (
-	AsyncLogSuffix = "\n(This is an asynchronous operation. See https://github.com/google/kf/issues/599 for updates on work to support synchronous commands.)\n"
+	AsyncLogSuffix = "\n(This is an asynchronous operation. See https://github.com/poy/kf/issues/599 for updates on work to support synchronous commands.)\n"
 )
 
 // KfParams stores everything needed to interact with the user and Knative.

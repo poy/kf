@@ -20,12 +20,12 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/internal/envutil"
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/spaces"
-	"github.com/google/kf/pkg/kf/spaces/fake"
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/internal/envutil"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/spaces"
+	"github.com/poy/kf/pkg/kf/spaces/fake"
+	"github.com/poy/kf/pkg/kf/testutil"
 )
 
 func TestNewConfigSpaceCommand(t *testing.T) {

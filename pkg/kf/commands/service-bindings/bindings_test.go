@@ -19,11 +19,11 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	servicebindingscmd "github.com/google/kf/pkg/kf/commands/service-bindings"
-	"github.com/google/kf/pkg/kf/commands/utils"
-	servicebindings "github.com/google/kf/pkg/kf/service-bindings"
-	"github.com/google/kf/pkg/kf/service-bindings/fake"
-	"github.com/google/kf/pkg/kf/testutil"
+	servicebindingscmd "github.com/poy/kf/pkg/kf/commands/service-bindings"
+	"github.com/poy/kf/pkg/kf/commands/utils"
+	servicebindings "github.com/poy/kf/pkg/kf/service-bindings"
+	"github.com/poy/kf/pkg/kf/service-bindings/fake"
+	"github.com/poy/kf/pkg/kf/testutil"
 	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 )
 

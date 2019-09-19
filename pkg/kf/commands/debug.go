@@ -19,8 +19,8 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/describe"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/describe"
 	"github.com/spf13/cobra"
 )
 

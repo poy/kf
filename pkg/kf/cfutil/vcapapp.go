@@ -15,8 +15,8 @@
 package cfutil
 
 import (
-	v1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/internal/envutil"
+	v1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/internal/envutil"
 	corev1 "k8s.io/api/core/v1"
 )
 

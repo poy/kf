@@ -29,8 +29,8 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/google/kf/pkg/kf/manifest"
-	. "github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/manifest"
+	. "github.com/poy/kf/pkg/kf/testutil"
 )
 
 const (

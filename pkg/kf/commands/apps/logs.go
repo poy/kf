@@ -18,11 +18,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/google/kf/pkg/kf/commands/completion"
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/commands/utils"
-	kfi "github.com/google/kf/pkg/kf/internal/kf"
-	"github.com/google/kf/pkg/kf/logs"
+	"github.com/poy/kf/pkg/kf/commands/completion"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/utils"
+	kfi "github.com/poy/kf/pkg/kf/internal/kf"
+	"github.com/poy/kf/pkg/kf/logs"
 	"github.com/spf13/cobra"
 )
 

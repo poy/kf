@@ -19,8 +19,8 @@ package fake
 import (
 	"context"
 
-	fake "github.com/google/kf/pkg/client/injection/informers/kf/factory/fake"
-	routeclaim "github.com/google/kf/pkg/client/injection/informers/kf/v1alpha1/routeclaim"
+	fake "github.com/poy/kf/pkg/client/injection/informers/kf/factory/fake"
+	routeclaim "github.com/poy/kf/pkg/client/injection/informers/kf/v1alpha1/routeclaim"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 )

@@ -17,8 +17,8 @@ package commands
 import (
 	"fmt"
 
-	"github.com/google/kf/pkg/kf/commands/completion"
-	"github.com/google/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/completion"
+	"github.com/poy/kf/pkg/kf/commands/config"
 	"github.com/spf13/cobra"
 )
 

@@ -17,7 +17,7 @@
 package v1alpha1
 
 import (
-	scheme "github.com/google/kf/pkg/client/build/clientset/versioned/scheme"
+	scheme "github.com/poy/kf/pkg/client/build/clientset/versioned/scheme"
 	v1alpha1 "github.com/knative/build/pkg/apis/build/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"

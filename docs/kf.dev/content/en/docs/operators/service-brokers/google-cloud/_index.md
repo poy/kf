@@ -102,7 +102,7 @@ helm init --service-account tiller
 1. Clone the service broker to your local workstation and `cd` to it:
 
     ```sh
-    git clone https://github.com/google/kf.git
+    git clone https://github.com/poy/kf.git
     cd kf/third_party/gcp-service-broker 
     ```
 

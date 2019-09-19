@@ -1,4 +1,4 @@
-module github.com/google/kf/third_party/forked/gomod-collector
+module github.com/poy/kf/third_party/forked/gomod-collector
 
 go 1.12
 

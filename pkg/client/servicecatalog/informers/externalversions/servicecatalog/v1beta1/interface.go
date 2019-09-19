@@ -17,7 +17,7 @@
 package v1beta1
 
 import (
-	internalinterfaces "github.com/google/kf/pkg/client/servicecatalog/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/poy/kf/pkg/client/servicecatalog/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

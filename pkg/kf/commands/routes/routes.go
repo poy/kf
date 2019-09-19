@@ -20,14 +20,14 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/kf/algorithms"
-	"github.com/google/kf/pkg/kf/apps"
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/commands/utils"
-	"github.com/google/kf/pkg/kf/describe"
-	"github.com/google/kf/pkg/kf/routeclaims"
-	"github.com/google/kf/pkg/kf/routes"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/kf/algorithms"
+	"github.com/poy/kf/pkg/kf/apps"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/utils"
+	"github.com/poy/kf/pkg/kf/describe"
+	"github.com/poy/kf/pkg/kf/routeclaims"
+	"github.com/poy/kf/pkg/kf/routes"
 	"github.com/spf13/cobra"
 )
 

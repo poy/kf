@@ -20,8 +20,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/doctor"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/doctor"
 
 	"github.com/spf13/cobra"
 )
