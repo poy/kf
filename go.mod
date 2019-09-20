@@ -40,7 +40,7 @@ require (
 	k8s.io/apimachinery v0.0.0
 	k8s.io/cli-runtime v0.0.0
 	k8s.io/client-go v2.0.0-alpha.0.0.20190226174127-78295b709ec6+incompatible
-	k8s.io/code-generator v0.0.0
+	k8s.io/code-generator v0.0.0-20181128191024-b1289fc74931
 	k8s.io/gengo v0.0.0-20190116091435-f8a0810f38af // indirect
 	k8s.io/klog v0.3.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20190228160746-b3a7cee44a30 // indirect
@@ -67,7 +67,6 @@ replace (
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20190226174127-78295b709ec6
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20181009000525-95810021865e
 	k8s.io/cluster-bootstrap => k8s.io/cluster-bootstrap v0.0.0-20181003203521-0cc92547a631
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20181128191024-b1289fc74931
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20190107200011-1e2bcba2af7f
 	k8s.io/cri-api => k8s.io/cri-api v0.0.0-20190326082326-5c2568eea0b8
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190109195450-94d98b9371d9
