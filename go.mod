@@ -9,23 +9,33 @@ require (
 	github.com/evanphx/json-patch v0.0.0-20190203023257-5858425f7550 // indirect
 	github.com/fatih/color v1.7.0
 	github.com/ghodss/yaml v1.0.0 // indirect
+	github.com/golang/groupcache v0.0.0-20160516000752-02826c3e7903 // indirect
 	github.com/golang/mock v1.3.1
 	github.com/google/go-containerregistry v0.0.0-20190306174256-678f6c51f585
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf // indirect
 	github.com/google/uuid v1.1.1 // indirect
 	github.com/google/wire v0.2.2
+	github.com/googleapis/gnostic v0.0.0-20170729233727-0c5108395e2d // indirect
 	github.com/gorilla/mux v1.7.0
+	github.com/grpc-ecosystem/grpc-gateway v1.3.0 // indirect
+	github.com/hashicorp/go-multierror v1.0.0 // indirect
 	github.com/imdario/mergo v0.3.7
+	github.com/json-iterator/go v0.0.0-20180701071628-ab8a2e0c74be // indirect
 	github.com/knative/build v0.7.0
 	github.com/knative/pkg v0.0.0-20190621200921-9c5d970cbc9e
 	github.com/knative/serving v0.7.1-0.20190701162519-7ca25646a186
+	github.com/kubernetes-incubator/service-catalog v0.2.2 // indirect
+	github.com/kubernetes-sigs/service-catalog v0.2.2 // indirect
 	github.com/manifoldco/promptui v0.3.2
 	github.com/markbates/inflect v1.0.4 // indirect
 	github.com/mattbaird/jsonpatch v0.0.0-20171005235357-81af80346b1a // indirect
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pborman/uuid v1.2.0 // indirect
+	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/poy/kontext v0.0.0-20190801225340-1f98414f4e12
-	github.com/poy/service-catalog v0.0.0-20190305064623-db385b1d332c
+	github.com/poy/service-catalog v0.1.42
 	github.com/rogpeppe/go-internal v1.3.0 // indirect
 	github.com/russross/blackfriday v1.5.2
 	github.com/segmentio/textio v1.2.0
@@ -33,13 +43,15 @@ require (
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.3.0 // indirect
 	go.opencensus.io v0.22.0 // indirect
+	go.uber.org/atomic v0.0.0-20181018215023-8dc6146f7569 // indirect
+	go.uber.org/multierr v0.0.0-20180122172545-ddea229ff1df // indirect
 	go.uber.org/zap v1.9.1
 	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a // indirect
 	google.golang.org/appengine v1.5.0 // indirect
 	k8s.io/api v0.0.0-20190528110122-9ad12a4af326
 	k8s.io/apimachinery v0.0.0-20190221084156-01f179d85dbc
 	k8s.io/cli-runtime v0.0.0-20190528110732-ad79ea2fbc0f
-	k8s.io/client-go v2.0.0-alpha.0.0.20190226174127-78295b709ec6+incompatible
+	k8s.io/client-go v0.0.0-20190226174127-78295b709ec6
 	k8s.io/code-generator v0.0.0-20181128191024-b1289fc74931
 	k8s.io/gengo v0.0.0-20190116091435-f8a0810f38af // indirect
 	k8s.io/klog v0.3.1 // indirect
@@ -61,7 +73,6 @@ replace (
 	github.com/google/go-cmp => github.com/google/go-cmp v0.3.0
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.0.0-20190528110544-fa58353d80f3
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190528110248-2d60c3dee270
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190226174127-78295b709ec6
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20181009000525-95810021865e
 	k8s.io/cluster-bootstrap => k8s.io/cluster-bootstrap v0.0.0-20181003203521-0cc92547a631
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20190107200011-1e2bcba2af7f
