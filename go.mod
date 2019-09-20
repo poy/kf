@@ -11,6 +11,7 @@ require (
 	github.com/fatih/color v1.7.0
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/gogo/protobuf v1.3.0 // indirect
+	github.com/golang/groupcache v0.0.0-20190702054246-869f871628b6 // indirect
 	github.com/golang/mock v1.3.1
 	github.com/google/btree v1.0.0 // indirect
 	github.com/google/go-cmp v0.3.1 // indirect
@@ -55,7 +56,6 @@ require (
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.4.0 // indirect
-	go.opencensus.io v0.22.1 // indirect
 	go.uber.org/atomic v0.0.0-20181018215023-8dc6146f7569 // indirect
 	go.uber.org/multierr v0.0.0-20180122172545-ddea229ff1df // indirect
 	go.uber.org/zap v1.9.1
@@ -86,7 +86,7 @@ require (
 // opencensus and go-cmp are fixed to satisfy unspecified dependencies in
 // knative/pkg; update once https://github.com/knative/pkg/pull/475 goes
 // through
-replace go.opencensus.io => go.opencensus.io v0.22.1
+replace go.opencensus.io => go.opencensus.io v0.20.2
 
 // Remove once https://github.com/poy/kf/issues/238 is resolved
 replace github.com/knative/pkg => github.com/poy/knative-pkg v99.0.0+incompatible
