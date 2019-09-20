@@ -10,7 +10,6 @@ require (
 	github.com/fatih/color v1.7.0
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/golang/groupcache v0.0.0-20160516000752-02826c3e7903 // indirect
-	github.com/golang/lint v0.0.0-20190909230951-414d861bb4ac
 	github.com/golang/mock v1.3.1
 	github.com/google/go-containerregistry v0.0.0-20190306174256-678f6c51f585
 	github.com/google/go-github v17.0.0+incompatible
@@ -92,5 +91,6 @@ replace (
 
 exclude (
 	github.com/alecthomas/gometalinter v2.0.11+incompatible
+	github.com/golang/lint v0.0.0-20190909230951-414d861bb4ac
 	gopkg.in/alecthomas/kingpin.v3-unstable v3.0.0-20180810215634-df19058c872c
 )
