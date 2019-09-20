@@ -15,10 +15,10 @@
 package apps
 
 import (
-	v1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
+	v1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
 
-	"github.com/google/kf/pkg/internal/envutil"
-	"github.com/google/kf/pkg/kf/sources"
+	"github.com/poy/kf/pkg/internal/envutil"
+	"github.com/poy/kf/pkg/kf/sources"
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"

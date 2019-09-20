@@ -19,11 +19,11 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	servicescmd "github.com/google/kf/pkg/kf/commands/services"
-	"github.com/google/kf/pkg/kf/commands/utils"
-	"github.com/google/kf/pkg/kf/services"
-	"github.com/google/kf/pkg/kf/services/fake"
-	"github.com/google/kf/pkg/kf/testutil"
+	servicescmd "github.com/poy/kf/pkg/kf/commands/services"
+	"github.com/poy/kf/pkg/kf/commands/utils"
+	"github.com/poy/kf/pkg/kf/services"
+	"github.com/poy/kf/pkg/kf/services/fake"
+	"github.com/poy/kf/pkg/kf/testutil"
 )
 
 func TestNewDeleteServiceCommand(t *testing.T) {

@@ -19,8 +19,8 @@ package kffactory
 import (
 	"context"
 
-	externalversions "github.com/google/kf/pkg/client/informers/externalversions"
-	client "github.com/google/kf/pkg/client/injection/client"
+	externalversions "github.com/poy/kf/pkg/client/informers/externalversions"
+	client "github.com/poy/kf/pkg/client/injection/client"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 	logging "knative.dev/pkg/logging"

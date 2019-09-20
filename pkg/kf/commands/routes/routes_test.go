@@ -22,13 +22,13 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	fakeapps "github.com/google/kf/pkg/kf/apps/fake"
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/commands/routes"
-	fakerouteclaims "github.com/google/kf/pkg/kf/routeclaims/fake"
-	fakeroutes "github.com/google/kf/pkg/kf/routes/fake"
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	fakeapps "github.com/poy/kf/pkg/kf/apps/fake"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/routes"
+	fakerouteclaims "github.com/poy/kf/pkg/kf/routeclaims/fake"
+	fakeroutes "github.com/poy/kf/pkg/kf/routes/fake"
+	"github.com/poy/kf/pkg/kf/testutil"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

@@ -24,7 +24,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/fields"
 
-	v1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
+	v1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
 	corev1 "k8s.io/api/core/v1"
 	k8smeta "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

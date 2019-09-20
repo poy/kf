@@ -60,13 +60,13 @@ kubectl apply --filename https://github.com/knative/build/releases/download/v0.6
 ### Service Catalog:
 
 ```.sh
-kubectl apply -f https://github.com/google/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/etcd-pvc.yaml
-kubectl apply -f https://github.com/google/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/apiregistration.yaml
-kubectl apply -f https://github.com/google/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/apiserver-deployment.yaml
-kubectl apply -f https://github.com/google/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/apiserver-service.yaml
-kubectl apply -f https://github.com/google/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/controller-manager-deployment.yaml
-kubectl apply -f https://github.com/google/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/rbac.yaml
-kubectl apply -f https://github.com/google/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/serviceaccounts.yaml
+kubectl apply -f https://github.com/poy/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/etcd-pvc.yaml
+kubectl apply -f https://github.com/poy/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/apiregistration.yaml
+kubectl apply -f https://github.com/poy/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/apiserver-deployment.yaml
+kubectl apply -f https://github.com/poy/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/apiserver-service.yaml
+kubectl apply -f https://github.com/poy/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/controller-manager-deployment.yaml
+kubectl apply -f https://github.com/poy/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/rbac.yaml
+kubectl apply -f https://github.com/poy/kf/raw/master/third_party/service-catalog/manifests/catalog/templates/serviceaccounts.yaml
 ```
 
 ## Install Kf
@@ -124,7 +124,7 @@ available in this repo:
 
 ```.sh
 # If you haven't already downloaded the repo
-git clone https://github.com/google/kf
+git clone https://github.com/poy/kf
 cd kf/samples/apps/helloworld
 ```
 

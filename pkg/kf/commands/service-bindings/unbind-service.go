@@ -17,9 +17,9 @@ package servicebindings
 import (
 	"fmt"
 
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/commands/utils"
-	servicebindings "github.com/google/kf/pkg/kf/service-bindings"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/utils"
+	servicebindings "github.com/poy/kf/pkg/kf/service-bindings"
 	"github.com/spf13/cobra"
 )
 

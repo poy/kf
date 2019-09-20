@@ -19,9 +19,9 @@ package v1alpha1
 import (
 	time "time"
 
-	versioned "github.com/google/kf/pkg/client/build/clientset/versioned"
-	internalinterfaces "github.com/google/kf/pkg/client/build/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/google/kf/pkg/client/build/listers/build/v1alpha1"
+	versioned "github.com/poy/kf/pkg/client/build/clientset/versioned"
+	internalinterfaces "github.com/poy/kf/pkg/client/build/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/poy/kf/pkg/client/build/listers/build/v1alpha1"
 	buildv1alpha1 "github.com/knative/build/pkg/apis/build/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"

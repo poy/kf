@@ -17,7 +17,7 @@ package main
 import (
 	"os"
 
-	"github.com/google/kf/pkg/kf/commands"
+	"github.com/poy/kf/pkg/kf/commands"
 )
 
 func main() {

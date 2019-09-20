@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	servicecatalogclient "github.com/google/kf/pkg/client/servicecatalog/clientset/versioned"
-	"github.com/google/kf/pkg/kf/commands/config"
-	installutil "github.com/google/kf/pkg/kf/commands/install/util"
-	"github.com/google/kf/pkg/kf/commands/utils"
+	servicecatalogclient "github.com/poy/kf/pkg/client/servicecatalog/clientset/versioned"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	installutil "github.com/poy/kf/pkg/kf/commands/install/util"
+	"github.com/poy/kf/pkg/kf/commands/utils"
 	"github.com/spf13/cobra"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

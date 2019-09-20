@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/kf/pkg/kf/logs"
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/logs"
+	"github.com/poy/kf/pkg/kf/testutil"
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

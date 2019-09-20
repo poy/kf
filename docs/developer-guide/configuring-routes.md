@@ -99,7 +99,7 @@ NOTE: Routes that share the same host and domain must be in the same space.
 
 ### Check Routes
 
-Kf does not yet support checking routes. There is an [open issue](https://github.com/google/kf/issues/336) with more information.
+Kf does not yet support checking routes. There is an [open issue](https://github.com/poy/kf/issues/336) with more information.
 
 ### Map a Route to Your App
 
@@ -161,9 +161,9 @@ will not delete routes you created manually or as part of a previous push.
 
 There are four types that are relevant to routing:
 * [VirtualService](https://godoc.org/knative.dev/pkg/apis/istio/v1alpha3#VirtualService)
-* [RouteClaim](https://godoc.org/github.com/google/kf/pkg/apis/kf/v1alpha1#RouteClaim)
-* [Route](https://godoc.org/github.com/google/kf/pkg/apis/kf/v1alpha1#Route)
-* [App](https://godoc.org/github.com/google/kf/pkg/apis/kf/v1alpha1#App)
+* [RouteClaim](https://godoc.org/github.com/poy/kf/pkg/apis/kf/v1alpha1#RouteClaim)
+* [Route](https://godoc.org/github.com/poy/kf/pkg/apis/kf/v1alpha1#Route)
+* [App](https://godoc.org/github.com/poy/kf/pkg/apis/kf/v1alpha1#App)
 
 The `VirtualService` configures how Istio will route traffic to the apps (or
 return a fault if there is no app to receive the request).  The goal of a

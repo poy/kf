@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/internal/envutil"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/internal/envutil"
 	serving "github.com/knative/serving/pkg/apis/serving/v1alpha1"
 	servingv1beta1 "github.com/knative/serving/pkg/apis/serving/v1beta1"
 	"github.com/knative/serving/pkg/resources"

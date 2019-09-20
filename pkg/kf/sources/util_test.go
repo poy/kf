@@ -18,9 +18,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/kf/sources"
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/kf/sources"
+	"github.com/poy/kf/pkg/kf/testutil"
 	corev1 "k8s.io/api/core/v1"
 	duck "knative.dev/pkg/apis/duck/v1beta1"
 )

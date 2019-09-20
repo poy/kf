@@ -1,3 +1,3 @@
-module github.com/google/kf/samples/apps/helloworld
+module github.com/poy/kf/samples/apps/helloworld
 
 go 1.12

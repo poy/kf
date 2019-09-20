@@ -15,7 +15,7 @@
 package install
 
 import (
-	"github.com/google/kf/pkg/kf/commands/install/gke"
+	"github.com/poy/kf/pkg/kf/commands/install/gke"
 	"github.com/spf13/cobra"
 )
 

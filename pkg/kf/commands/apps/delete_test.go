@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/kf/pkg/kf/apps/fake"
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/commands/utils"
+	"github.com/poy/kf/pkg/kf/apps/fake"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/utils"
 )
 
 func TestDeleteCommand(t *testing.T) {

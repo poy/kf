@@ -14,10 +14,10 @@
 
 package fake
 
-//go:generate mockgen --package=fake --copyright_file ../../internal/tools/option-builder/LICENSE_HEADER --destination=fake_istio_client.go --mock_names=IstioClient=FakeIstioClient github.com/google/kf/pkg/kf/istio/fake IstioClient
+//go:generate mockgen --package=fake --copyright_file ../../internal/tools/option-builder/LICENSE_HEADER --destination=fake_istio_client.go --mock_names=IstioClient=FakeIstioClient github.com/poy/kf/pkg/kf/istio/fake IstioClient
 
 import (
-	"github.com/google/kf/pkg/kf/istio"
+	"github.com/poy/kf/pkg/kf/istio"
 )
 
 // IstioClient is implemented by kf.IstioClient.

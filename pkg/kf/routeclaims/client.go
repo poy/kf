@@ -15,7 +15,7 @@
 package routeclaims
 
 import (
-	kf "github.com/google/kf/pkg/client/clientset/versioned/typed/kf/v1alpha1"
+	kf "github.com/poy/kf/pkg/client/clientset/versioned/typed/kf/v1alpha1"
 )
 
 // ClientExtension holds additional functions that should be exposed by Client.

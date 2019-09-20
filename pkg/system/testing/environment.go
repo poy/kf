@@ -18,7 +18,7 @@ package testing
 import (
 	"os"
 
-	"github.com/google/kf/pkg/system"
+	"github.com/poy/kf/pkg/system"
 )
 
 func init() {

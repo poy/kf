@@ -56,7 +56,7 @@ resources:
 - name: kf-master
   type: git
   source:
-    uri: https://github.com/google/kf
+    uri: https://github.com/poy/kf
     branch: master
 - name: src
   type: pull-request

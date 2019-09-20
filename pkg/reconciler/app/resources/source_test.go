@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/kf/testutil"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

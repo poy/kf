@@ -51,8 +51,8 @@ export CGO_ENABLED=0
 # resolved.
 go mod vendor
 mkdir -p $GOPATH/src/github.com/google/
-ln -s $PWD $GOPATH/src/github.com/google/kf
-cd $GOPATH/src/github.com/google/kf
+ln -s $PWD $GOPATH/src/github.com/poy/kf
+cd $GOPATH/src/github.com/poy/kf
 
 # ko resolve
 # This publishes the images to KO_DOCKER_REPO and writes the yaml to
@@ -77,5 +77,5 @@ for os in $(echo linux darwin windows); do
   fi
 
   # Build
-  GOOS=${os} go build -o ${destination} --ldflags "-X github.com/google/kf/pkg/kf/commands.Version=${hash}" ./cmd/kf
+  GOOS=${os} go build -o ${destination} --ldflags "-X github.com/poy/kf/pkg/kf/commands.Version=${hash}" ./cmd/kf
 done

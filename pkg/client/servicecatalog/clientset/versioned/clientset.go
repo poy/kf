@@ -17,7 +17,7 @@
 package versioned
 
 import (
-	servicecatalogv1beta1 "github.com/google/kf/pkg/client/servicecatalog/clientset/versioned/typed/servicecatalog/v1beta1"
+	servicecatalogv1beta1 "github.com/poy/kf/pkg/client/servicecatalog/clientset/versioned/typed/servicecatalog/v1beta1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

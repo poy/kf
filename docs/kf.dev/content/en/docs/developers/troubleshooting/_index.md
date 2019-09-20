@@ -16,5 +16,5 @@ Refer to Spring's documentation on [executable JARs][executable-jar] to disable 
 in your application, then attempt to deploy the standard, non-executable JAR
 with Kf again.
 
-[exe-jar-issue]: https://github.com/google/kf/issues/579
+[exe-jar-issue]: https://github.com/poy/kf/issues/579
 You may refer to [kf/579][exe-jar-issue] for more background on this issue.

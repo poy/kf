@@ -24,20 +24,20 @@ import (
 	v1alpha3 "knative.dev/pkg/apis/istio/v1alpha3"
 
 	gomock "github.com/golang/mock/gomock"
-	v1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/kf/testutil"
-	"github.com/google/kf/pkg/reconciler"
-	appresources "github.com/google/kf/pkg/reconciler/app/resources"
+	v1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/reconciler"
+	appresources "github.com/poy/kf/pkg/reconciler/app/resources"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
-//go:generate mockgen --package=route --copyright_file ../../kf/internal/tools/option-builder/LICENSE_HEADER --destination=fake_listers.go --mock_names=RouteLister=FakeRouteLister,RouteNamespaceLister=FakeRouteNamespaceLister,RouteClaimLister=FakeRouteClaimLister,RouteClaimNamespaceLister=FakeRouteClaimNamespaceLister github.com/google/kf/pkg/client/listers/kf/v1alpha1 RouteLister,RouteClaimLister,RouteNamespaceLister,RouteClaimNamespaceLister
+//go:generate mockgen --package=route --copyright_file ../../kf/internal/tools/option-builder/LICENSE_HEADER --destination=fake_listers.go --mock_names=RouteLister=FakeRouteLister,RouteNamespaceLister=FakeRouteNamespaceLister,RouteClaimLister=FakeRouteClaimLister,RouteClaimNamespaceLister=FakeRouteClaimNamespaceLister github.com/poy/kf/pkg/client/listers/kf/v1alpha1 RouteLister,RouteClaimLister,RouteNamespaceLister,RouteClaimNamespaceLister
 //go:generate mockgen --package=route --copyright_file ../../kf/internal/tools/option-builder/LICENSE_HEADER --destination=fake_corev1_listers.go --mock_names=NamespaceLister=FakeNamespaceLister k8s.io/client-go/listers/core/v1 NamespaceLister
 //go:generate mockgen --package=route --copyright_file ../../kf/internal/tools/option-builder/LICENSE_HEADER --destination=fake_shared_client.go --mock_names=Interface=FakeSharedClient knative.dev/pkg/client/clientset/versioned Interface
 //go:generate mockgen --package=route --copyright_file ../../kf/internal/tools/option-builder/LICENSE_HEADER --destination=fake_networking.go --mock_names=NetworkingV1alpha3Interface=FakeNetworking,VirtualServiceInterface=FakeVirtualServiceInterface knative.dev/pkg/client/clientset/versioned/typed/istio/v1alpha3 NetworkingV1alpha3Interface,VirtualServiceInterface
-//go:generate mockgen --package=route --copyright_file ../../kf/internal/tools/option-builder/LICENSE_HEADER --destination=fake_kf.go --mock_names=Interface=FakeKfInterface github.com/google/kf/pkg/client/clientset/versioned Interface
-//go:generate mockgen --package=route --copyright_file ../../kf/internal/tools/option-builder/LICENSE_HEADER --destination=fake_kf_v1alpha1.go --mock_names=KfV1alpha1Interface=FakeKfAlpha1Interface,RouteInterface=FakeRouteInterface github.com/google/kf/pkg/client/clientset/versioned/typed/kf/v1alpha1 KfV1alpha1Interface,RouteInterface
+//go:generate mockgen --package=route --copyright_file ../../kf/internal/tools/option-builder/LICENSE_HEADER --destination=fake_kf.go --mock_names=Interface=FakeKfInterface github.com/poy/kf/pkg/client/clientset/versioned Interface
+//go:generate mockgen --package=route --copyright_file ../../kf/internal/tools/option-builder/LICENSE_HEADER --destination=fake_kf_v1alpha1.go --mock_names=KfV1alpha1Interface=FakeKfAlpha1Interface,RouteInterface=FakeRouteInterface github.com/poy/kf/pkg/client/clientset/versioned/typed/kf/v1alpha1 KfV1alpha1Interface,RouteInterface
 //go:generate mockgen --package=route --copyright_file ../../kf/internal/tools/option-builder/LICENSE_HEADER --destination=fake_istio_listers.go --mock_names=VirtualServiceLister=FakeVirtualServiceLister,VirtualServiceNamespaceLister=FakeVirtualServiceNamespaceLister knative.dev/pkg/client/listers/istio/v1alpha3 VirtualServiceLister,VirtualServiceNamespaceLister
 func TestReconciler_Reconcile_badKey(t *testing.T) {
 	t.Parallel()

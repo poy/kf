@@ -17,8 +17,8 @@
 package build
 
 import (
-	v1alpha1 "github.com/google/kf/pkg/client/build/informers/externalversions/build/v1alpha1"
-	internalinterfaces "github.com/google/kf/pkg/client/build/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/poy/kf/pkg/client/build/informers/externalversions/build/v1alpha1"
+	internalinterfaces "github.com/poy/kf/pkg/client/build/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

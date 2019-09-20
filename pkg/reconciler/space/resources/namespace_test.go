@@ -17,7 +17,7 @@ package resources
 import (
 	"fmt"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
 )
 
 func ExampleNamespaceName() {

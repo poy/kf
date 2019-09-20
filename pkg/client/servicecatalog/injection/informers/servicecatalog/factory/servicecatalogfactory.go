@@ -19,8 +19,8 @@ package servicecatalogfactory
 import (
 	"context"
 
-	externalversions "github.com/google/kf/pkg/client/servicecatalog/informers/externalversions"
-	client "github.com/google/kf/pkg/client/servicecatalog/injection/client"
+	externalversions "github.com/poy/kf/pkg/client/servicecatalog/informers/externalversions"
+	client "github.com/poy/kf/pkg/client/servicecatalog/injection/client"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 	logging "knative.dev/pkg/logging"

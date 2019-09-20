@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"io"
 
-	kfv1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/commands/utils"
-	"github.com/google/kf/pkg/kf/describe"
-	servicebindings "github.com/google/kf/pkg/kf/service-bindings"
+	kfv1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/utils"
+	"github.com/poy/kf/pkg/kf/describe"
+	servicebindings "github.com/poy/kf/pkg/kf/service-bindings"
 	"github.com/spf13/cobra"
 )
 

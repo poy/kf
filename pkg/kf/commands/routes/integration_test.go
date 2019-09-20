@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/google/kf/pkg/kf/testutil"
+	. "github.com/poy/kf/pkg/kf/testutil"
 )
 
 // TestIntegration_Routes creates a route via `create-route`, verifies it with

@@ -19,9 +19,9 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	cfutilfake "github.com/google/kf/pkg/kf/cfutil/fake"
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	cfutilfake "github.com/poy/kf/pkg/kf/cfutil/fake"
+	"github.com/poy/kf/pkg/kf/testutil"
 	apiv1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	servicecatalogclient "github.com/google/kf/pkg/client/servicecatalog/clientset/versioned"
-	"github.com/google/kf/pkg/kf/apps"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	servicecatalogclient "github.com/poy/kf/pkg/client/servicecatalog/clientset/versioned"
+	"github.com/poy/kf/pkg/kf/apps"
 	servicecatalogv1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

@@ -17,9 +17,9 @@ package reconciler
 import (
 	"context"
 
-	kfclientset "github.com/google/kf/pkg/client/clientset/versioned"
-	kfscheme "github.com/google/kf/pkg/client/clientset/versioned/scheme"
-	kfclient "github.com/google/kf/pkg/client/injection/client"
+	kfclientset "github.com/poy/kf/pkg/client/clientset/versioned"
+	kfscheme "github.com/poy/kf/pkg/client/clientset/versioned/scheme"
+	kfclient "github.com/poy/kf/pkg/client/injection/client"
 	knativeclientset "github.com/knative/serving/pkg/client/clientset/versioned"
 	knativeclient "github.com/knative/serving/pkg/client/injection/client"
 	"go.uber.org/zap"

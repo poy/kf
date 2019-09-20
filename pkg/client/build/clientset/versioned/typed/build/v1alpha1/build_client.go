@@ -17,7 +17,7 @@
 package v1alpha1
 
 import (
-	"github.com/google/kf/pkg/client/build/clientset/versioned/scheme"
+	"github.com/poy/kf/pkg/client/build/clientset/versioned/scheme"
 	v1alpha1 "github.com/knative/build/pkg/apis/build/v1alpha1"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"

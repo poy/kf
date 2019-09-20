@@ -82,7 +82,7 @@ func CollectVendoredModules(projectDirectories []string) ([]Module, error) {
 			// Replacement import:
 			// # github.com/google/go-cmp v0.2.0 => github.com/google/go-cmp v0.3.0
 			// Replacement local:
-			// # github.com/google/kf/pkg/kf/commands/install v0.0.0 => ./pkg/kf/commands/install
+			// # github.com/poy/kf/pkg/kf/commands/install v0.0.0 => ./pkg/kf/commands/install
 			if !isModImport(line) {
 				continue
 			}

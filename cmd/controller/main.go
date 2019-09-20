@@ -15,10 +15,10 @@
 package main
 
 import (
-	"github.com/google/kf/pkg/reconciler/app"
-	"github.com/google/kf/pkg/reconciler/route"
-	"github.com/google/kf/pkg/reconciler/source"
-	"github.com/google/kf/pkg/reconciler/space"
+	"github.com/poy/kf/pkg/reconciler/app"
+	"github.com/poy/kf/pkg/reconciler/route"
+	"github.com/poy/kf/pkg/reconciler/source"
+	"github.com/poy/kf/pkg/reconciler/space"
 	"knative.dev/pkg/injection/sharedmain"
 )
 

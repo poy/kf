@@ -17,7 +17,7 @@ package clientgen
 import (
 	"text/template"
 
-	"github.com/google/kf/pkg/kf/internal/tools/generator"
+	"github.com/poy/kf/pkg/kf/internal/tools/generator"
 )
 
 var clientTemplate = template.Must(template.New("").Funcs(generator.TemplateFuncs()).Parse(`

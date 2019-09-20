@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	cfutil "github.com/google/kf/pkg/kf/cfutil"
-	. "github.com/google/kf/pkg/kf/testutil"
+	cfutil "github.com/poy/kf/pkg/kf/cfutil"
+	. "github.com/poy/kf/pkg/kf/testutil"
 )
 
 func TestIntegration_Marketplace(t *testing.T) {

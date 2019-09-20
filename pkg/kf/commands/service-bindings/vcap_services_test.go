@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/google/kf/pkg/kf/commands/config"
-	servicebindings "github.com/google/kf/pkg/kf/commands/service-bindings"
-	"github.com/google/kf/pkg/kf/commands/utils"
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	servicebindings "github.com/poy/kf/pkg/kf/commands/service-bindings"
+	"github.com/poy/kf/pkg/kf/commands/utils"
+	"github.com/poy/kf/pkg/kf/testutil"
 	corev1 "k8s.io/api/core/v1"
 	k8sfake "k8s.io/client-go/kubernetes/fake"
 )

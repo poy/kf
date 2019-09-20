@@ -18,8 +18,8 @@ import (
 	// populate environment variables
 	"fmt"
 
-	"github.com/google/kf/pkg/system"
-	_ "github.com/google/kf/pkg/system/testing"
+	"github.com/poy/kf/pkg/system"
+	_ "github.com/poy/kf/pkg/system/testing"
 )
 
 func ExampleNamespace() {

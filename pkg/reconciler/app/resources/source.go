@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
 	"github.com/knative/serving/pkg/resources"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"knative.dev/pkg/kmeta"

@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/describe"
-	"github.com/google/kf/pkg/kf/spaces"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/describe"
+	"github.com/poy/kf/pkg/kf/spaces"
 
 	"github.com/spf13/cobra"
 )

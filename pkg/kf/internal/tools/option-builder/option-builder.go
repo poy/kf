@@ -28,7 +28,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/google/kf/pkg/kf/internal/tools/generator"
+	"github.com/poy/kf/pkg/kf/internal/tools/generator"
 	"sigs.k8s.io/yaml"
 )
 

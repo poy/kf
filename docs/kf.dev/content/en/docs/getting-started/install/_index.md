@@ -118,7 +118,7 @@ You can quickly deploy a simple "Hello, World!" sample app to further validate
 your configuration. Simply run these commands to do that:
 
 ```sh
-git clone https://github.com/google/kf
+git clone https://github.com/poy/kf
 cd kf/samples/apps/helloworld
 kf push helloworld
 ```

@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	kfv1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/kf/describe"
-	"github.com/google/kf/pkg/kf/testutil"
+	kfv1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/kf/describe"
+	"github.com/poy/kf/pkg/kf/testutil"
 	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/api/core/v1"

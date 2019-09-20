@@ -26,8 +26,8 @@ import (
 
 	"github.com/blang/semver"
 	"github.com/google/go-github/github"
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	. "github.com/google/kf/pkg/kf/commands/install/util"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	. "github.com/poy/kf/pkg/kf/commands/install/util"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
@@ -177,7 +177,7 @@ func installServiceCatalog(ctx context.Context) error {
 	if _, err := Git(
 		ctx,
 		"clone",
-		"https://github.com/google/kf",
+		"https://github.com/poy/kf",
 		tmpKfPath,
 	); err != nil {
 		return err

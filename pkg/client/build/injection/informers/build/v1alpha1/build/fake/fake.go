@@ -19,8 +19,8 @@ package fake
 import (
 	"context"
 
-	fake "github.com/google/kf/pkg/client/build/injection/informers/build/factory/fake"
-	build "github.com/google/kf/pkg/client/build/injection/informers/build/v1alpha1/build"
+	fake "github.com/poy/kf/pkg/client/build/injection/informers/build/factory/fake"
+	build "github.com/poy/kf/pkg/client/build/injection/informers/build/v1alpha1/build"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 )

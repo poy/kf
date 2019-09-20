@@ -18,8 +18,8 @@ import (
 	"errors"
 	"testing"
 
-	v1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/kf/testutil"
+	v1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/kf/testutil"
 	duckv1beta1 "knative.dev/pkg/apis/duck/v1beta1"
 )
 

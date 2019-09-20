@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/google/kf/pkg/kf/commands/group"
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/commands/group"
+	"github.com/poy/kf/pkg/kf/testutil"
 	"github.com/spf13/cobra"
 )
 

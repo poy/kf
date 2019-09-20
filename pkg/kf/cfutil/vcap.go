@@ -15,7 +15,7 @@
 package cfutil
 
 import (
-	kfv1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
+	kfv1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
 	apiv1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	servicecatalogv1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	corev1 "k8s.io/api/core/v1"

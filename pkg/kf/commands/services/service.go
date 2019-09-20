@@ -15,10 +15,10 @@
 package services
 
 import (
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/commands/utils"
-	"github.com/google/kf/pkg/kf/describe"
-	"github.com/google/kf/pkg/kf/services"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/utils"
+	"github.com/poy/kf/pkg/kf/describe"
+	"github.com/poy/kf/pkg/kf/services"
 	"github.com/spf13/cobra"
 )
 

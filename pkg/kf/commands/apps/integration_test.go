@@ -29,9 +29,9 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/kf/manifest"
-	. "github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/kf/manifest"
+	. "github.com/poy/kf/pkg/kf/testutil"
 )
 
 const (

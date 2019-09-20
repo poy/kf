@@ -17,8 +17,8 @@
 package servicecatalog
 
 import (
-	internalinterfaces "github.com/google/kf/pkg/client/servicecatalog/informers/externalversions/internalinterfaces"
-	v1beta1 "github.com/google/kf/pkg/client/servicecatalog/informers/externalversions/servicecatalog/v1beta1"
+	internalinterfaces "github.com/poy/kf/pkg/client/servicecatalog/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/poy/kf/pkg/client/servicecatalog/informers/externalversions/servicecatalog/v1beta1"
 )
 
 // Interface provides access to each of this group's versions.

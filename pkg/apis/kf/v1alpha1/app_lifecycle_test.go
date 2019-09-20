@@ -18,7 +18,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/testutil"
 	serving "github.com/knative/serving/pkg/apis/serving/v1alpha1"
 	servicecatalogv1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	corev1 "k8s.io/api/core/v1"

@@ -61,5 +61,5 @@ $ kf configure-space remove-domain my-space my-space.example.com
 
 ## Known issues
 
-* By default, Knative Serving uses `example.com` as a domain if none is configured. [#566](https://github.com/google/kf/issues/566)
-* Knative Serving will ALWAYS make apps available on `<app-name>.<namespace>.<domain>` [#410](https://github.com/google/kf/issues/410)
+* By default, Knative Serving uses `example.com` as a domain if none is configured. [#566](https://github.com/poy/kf/issues/566)
+* Knative Serving will ALWAYS make apps available on `<app-name>.<namespace>.<domain>` [#410](https://github.com/poy/kf/issues/410)

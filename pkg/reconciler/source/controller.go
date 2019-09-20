@@ -17,11 +17,11 @@ package source
 import (
 	"context"
 
-	kfv1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
-	buildclient "github.com/google/kf/pkg/client/build/injection/client"
-	buildinformer "github.com/google/kf/pkg/client/build/injection/informers/build/v1alpha1/build"
-	sourceinformer "github.com/google/kf/pkg/client/injection/informers/kf/v1alpha1/source"
-	"github.com/google/kf/pkg/reconciler"
+	kfv1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	buildclient "github.com/poy/kf/pkg/client/build/injection/client"
+	buildinformer "github.com/poy/kf/pkg/client/build/injection/informers/build/v1alpha1/build"
+	sourceinformer "github.com/poy/kf/pkg/client/injection/informers/kf/v1alpha1/source"
+	"github.com/poy/kf/pkg/reconciler"
 	"k8s.io/client-go/tools/cache"
 	"knative.dev/pkg/configmap"
 	controller "knative.dev/pkg/controller"

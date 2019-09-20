@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	v1alpha1 "github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/internal/envutil"
-	"github.com/google/kf/pkg/kf/sources"
+	v1alpha1 "github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/internal/envutil"
+	"github.com/poy/kf/pkg/kf/sources"
 	corev1 "k8s.io/api/core/v1"
 )
 
@@ -195,7 +195,7 @@ func mergeApps(cfg pushConfig, hasDefaultRoutes bool) func(newapp, oldapp *v1alp
 		if noCfgScaling(cfg) && noScaling(oldapp) {
 			// No scaling in old or new, go with a default of 1. This is to
 			// match expectaions for CF users. See
-			// https://github.com/google/kf/issues/8 for more context.
+			// https://github.com/poy/kf/issues/8 for more context.
 			singleInstance := 1
 			newapp.Spec.Instances.Exactly = &singleInstance
 		}

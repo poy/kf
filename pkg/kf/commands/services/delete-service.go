@@ -17,9 +17,9 @@ package services
 import (
 	"fmt"
 
-	"github.com/google/kf/pkg/kf/commands/config"
-	"github.com/google/kf/pkg/kf/commands/utils"
-	"github.com/google/kf/pkg/kf/services"
+	"github.com/poy/kf/pkg/kf/commands/config"
+	"github.com/poy/kf/pkg/kf/commands/utils"
+	"github.com/poy/kf/pkg/kf/services"
 	"github.com/spf13/cobra"
 )
 

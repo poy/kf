@@ -19,8 +19,8 @@ package source
 import (
 	"context"
 
-	v1alpha1 "github.com/google/kf/pkg/client/informers/externalversions/kf/v1alpha1"
-	factory "github.com/google/kf/pkg/client/injection/informers/kf/factory"
+	v1alpha1 "github.com/poy/kf/pkg/client/informers/externalversions/kf/v1alpha1"
+	factory "github.com/poy/kf/pkg/client/injection/informers/kf/factory"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 	logging "knative.dev/pkg/logging"

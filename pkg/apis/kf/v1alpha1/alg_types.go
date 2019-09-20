@@ -17,7 +17,7 @@ package v1alpha1
 import (
 	"path"
 
-	"github.com/google/kf/pkg/kf/algorithms"
+	"github.com/poy/kf/pkg/kf/algorithms"
 	servicecatalogv1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"knative.dev/pkg/apis/istio/v1alpha3"

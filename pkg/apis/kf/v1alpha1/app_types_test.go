@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/testutil"
 	"github.com/knative/serving/pkg/apis/autoscaling"
 )
 

@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/kf/pkg/kf/manifest"
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/manifest"
+	"github.com/poy/kf/pkg/kf/testutil"
 )
 
 func TestNewFromReader(t *testing.T) {

@@ -17,8 +17,8 @@ package resources
 import (
 	"fmt"
 
-	"github.com/google/kf/pkg/apis/kf/v1alpha1"
-	"github.com/google/kf/pkg/kf/cfutil"
+	"github.com/poy/kf/pkg/apis/kf/v1alpha1"
+	"github.com/poy/kf/pkg/kf/cfutil"
 	"github.com/knative/serving/pkg/resources"
 	servicecatalogv1beta1 "github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 	v1 "k8s.io/api/core/v1"

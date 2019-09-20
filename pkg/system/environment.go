@@ -46,7 +46,7 @@ API to initialize this variable via:
 If this is a Go unit test consuming serverside.Namespace() then it should add the
 following import:
 import (
-	_ "github.com/google/kf/pkg/serverside/testing"
+	_ "github.com/poy/kf/pkg/serverside/testing"
 )`, NamespaceEnvKey, NamespaceEnvKey)
 
 	// log.Fatalf should terminate the process but go doesn't recognize that
@@ -69,7 +69,7 @@ API to initialize this variable via:
 If this is a Go unit test consuming serverside.KnativeServingNamespace() then
 it should add the following import:
 import (
-	_ "github.com/google/kf/pkg/serverside/testing"
+	_ "github.com/poy/kf/pkg/serverside/testing"
 )`, KnativeServingNamespaceEnvKey, KnativeServingNamespaceEnvKey)
 
 	// log.Fatalf should terminate the process but go doesn't recognize that

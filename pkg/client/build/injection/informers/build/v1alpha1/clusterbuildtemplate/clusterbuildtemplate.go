@@ -19,8 +19,8 @@ package clusterbuildtemplate
 import (
 	"context"
 
-	v1alpha1 "github.com/google/kf/pkg/client/build/informers/externalversions/build/v1alpha1"
-	factory "github.com/google/kf/pkg/client/build/injection/informers/build/factory"
+	v1alpha1 "github.com/poy/kf/pkg/client/build/informers/externalversions/build/v1alpha1"
+	factory "github.com/poy/kf/pkg/client/build/injection/informers/build/factory"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 	logging "knative.dev/pkg/logging"

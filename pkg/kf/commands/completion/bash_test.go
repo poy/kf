@@ -17,7 +17,7 @@ package completion
 import (
 	"testing"
 
-	"github.com/google/kf/pkg/kf/testutil"
+	"github.com/poy/kf/pkg/kf/testutil"
 	"github.com/spf13/cobra"
 )
 
