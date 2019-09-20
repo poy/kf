@@ -95,4 +95,4 @@ exclude (
 	gopkg.in/alecthomas/kingpin.v3-unstable v3.0.0-20180810215634-df19058c872c
 )
 
-replace github.com/golang/lint => golang.org/x/lint latest
+replace github.com/golang/lint => golang.org/x/lint v0.0.0-20190909230951-414d861bb4ac
