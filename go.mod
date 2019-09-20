@@ -18,7 +18,7 @@ require (
 	github.com/google/wire v0.2.2
 	github.com/googleapis/gnostic v0.0.0-20170729233727-0c5108395e2d // indirect
 	github.com/gorilla/mux v1.7.0
-	github.com/grpc-ecosystem/grpc-gateway v1.3.0 // indirect
+	github.com/grpc-ecosystem/grpc-gateway v1.6.2 // indirect
 	github.com/hashicorp/go-multierror v1.0.0 // indirect
 	github.com/imdario/mergo v0.3.7
 	github.com/json-iterator/go v0.0.0-20180701071628-ab8a2e0c74be // indirect
@@ -32,8 +32,11 @@ require (
 	github.com/mattbaird/jsonpatch v0.0.0-20171005235357-81af80346b1a // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
+	github.com/onsi/ginkgo v1.10.1 // indirect
+	github.com/onsi/gomega v1.7.0 // indirect
 	github.com/pborman/uuid v1.2.0 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
+	github.com/pkg/errors v0.8.1 // indirect
 	github.com/poy/kontext v0.0.0-20190801225340-1f98414f4e12
 	github.com/poy/service-catalog v0.1.42
 	github.com/rogpeppe/go-internal v1.3.0 // indirect
@@ -63,8 +66,9 @@ require (
 )
 
 // opencensus and go-cmp are fixed to satisfy unspecified dependencies in
-// knative/pkg; update once https://github.com/knative/pkg/pull/475 goes through
-replace go.opencensus.io => go.opencensus.io v0.20.2
+// knative/pkg; update once https://github.com/knative/pkg/pull/475 goes
+// through
+// replace go.opencensus.io => go.opencensus.io v0.20.2
 
 // Remove once https://github.com/poy/kf/issues/238 is resolved
 replace github.com/knative/pkg => github.com/poy/knative-pkg v99.0.0+incompatible
