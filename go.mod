@@ -91,6 +91,8 @@ require (
 // Remove once https://github.com/poy/kf/issues/238 is resolved
 replace github.com/knative/pkg => github.com/poy/knative-pkg v99.0.0+incompatible
 
+replace google.golang.org/grpc => google.golang.org/grpc v1.23.1
+
 replace (
 	contrib.go.opencensus.io/exporter/stackdriver => contrib.go.opencensus.io/exporter/stackdriver v0.9.2
 	github.com/google/go-cmp => github.com/google/go-cmp v0.3.0
