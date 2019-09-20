@@ -58,7 +58,7 @@ require (
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.4.0 // indirect
-	go.opencensus.io/exporter/prometheus v0.0.0-00010101000000-000000000000 // indirect
+	go.opencensus.io/exporter/prometheus v0.1.0 // indirect
 	go.uber.org/atomic v0.0.0-20181018215023-8dc6146f7569 // indirect
 	go.uber.org/multierr v0.0.0-20180122172545-ddea229ff1df // indirect
 	go.uber.org/zap v1.9.1
