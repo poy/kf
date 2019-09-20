@@ -2,6 +2,7 @@ module github.com/poy/kf
 
 require (
 	cloud.google.com/go v0.46.3 // indirect
+	contrib.go.opencensus.io/exporter/prometheus v0.1.0 // indirect
 	contrib.go.opencensus.io/exporter/stackdriver v0.12.1 // indirect
 	github.com/Azure/go-autorest v11.1.2+incompatible // indirect
 	github.com/MakeNowJust/heredoc v0.0.0-20171113091838-e9091a26100e
@@ -50,12 +51,14 @@ require (
 	github.com/pkg/errors v0.8.1 // indirect
 	github.com/poy/kontext v0.0.0-20190801225340-1f98414f4e12
 	github.com/poy/service-catalog v0.1.42
+	github.com/prometheus/common v0.0.0-20181218105931-67670fe90761 // indirect
 	github.com/rogpeppe/go-internal v1.3.2 // indirect
 	github.com/russross/blackfriday v1.5.2
 	github.com/segmentio/textio v1.2.0
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.4.0 // indirect
+	go.opencensus.io/exporter/prometheus v0.0.0-00010101000000-000000000000 // indirect
 	go.uber.org/atomic v0.0.0-20181018215023-8dc6146f7569 // indirect
 	go.uber.org/multierr v0.0.0-20180122172545-ddea229ff1df // indirect
 	go.uber.org/zap v1.9.1
@@ -92,6 +95,8 @@ require (
 replace github.com/knative/pkg => github.com/poy/knative-pkg v99.0.0+incompatible
 
 replace google.golang.org/grpc => google.golang.org/grpc v1.23.1
+
+replace go.opencensus.io/exporter/prometheus => contrib.go.opencensus.io/exporter/prometheus v0.1.0
 
 replace (
 	contrib.go.opencensus.io/exporter/stackdriver => contrib.go.opencensus.io/exporter/stackdriver v0.9.2
