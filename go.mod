@@ -86,7 +86,7 @@ require (
 // opencensus and go-cmp are fixed to satisfy unspecified dependencies in
 // knative/pkg; update once https://github.com/knative/pkg/pull/475 goes
 // through
-replace go.opencensus.io => go.opencensus.io v0.20.2
+// replace go.opencensus.io => go.opencensus.io v0.20.2
 
 // Remove once https://github.com/poy/kf/issues/238 is resolved
 replace github.com/knative/pkg => github.com/poy/knative-pkg v99.0.0+incompatible
